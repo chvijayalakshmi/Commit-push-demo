@@ -25,7 +25,7 @@ class CommitPushDemoApplicationTests {
 	@Test
 	void multiplication(){
 		int a=2;
-		int b=4;
+		int b=0;
 		int Expected = 8;
 		int Result = c.multiply(a,b);
 		Assertions.assertEquals(Result,Expected);
