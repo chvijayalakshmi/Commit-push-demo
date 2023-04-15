@@ -10,7 +10,7 @@ class CommitPushDemoApplicationTests {
 	@Test
 	void additionShouldBeTrue(){
 		int a=2,b=3;
-		int Expected =10;
+		int Expected =5;
 		int Result = c.add(a,b);
 		Assertions.assertEquals(Result,Expected);
 	}
